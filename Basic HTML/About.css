@@ -1,0 +1,44 @@
+*{
+    text-align: right;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+body {
+    background-image: url("download.jpg");
+    background-size: 629px 627px;
+    background-repeat: no-repeat;
+    cursor: pointer; 
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+h1{
+    color : red;
+}
+
+p {
+    color: green;
+    border: solid 10px rgb(255, 176, 170, 0.5);
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Yusei Magic', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}

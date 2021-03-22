@@ -1,0 +1,29 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 3px solid red;
+    width: 400px;
+    border-right: 3px solid red;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 0px;
+}
+
+img{
+    margin: 8px;
+    width: 450px;
+    height: 300px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: rotate(20deg);
+}
+
+
